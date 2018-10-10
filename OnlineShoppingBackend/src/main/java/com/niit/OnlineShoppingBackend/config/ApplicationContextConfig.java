@@ -29,7 +29,7 @@ public class ApplicationContextConfig {
 	public DataSource getH2DataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		/* dataSource.setUrl("jdbc:h2:~/test"); */
-		dataSource.setUrl("jdbc:h2:tcp://localhost/~/OnlineShopping");
+		dataSource.setUrl("jdbc:h2:~/OnlineShopping");
 		dataSource.setDriverClassName("org.h2.Driver");
 		dataSource.setUsername("sa");
 		/* dataSource.setPassword("SA"); */
@@ -40,6 +40,10 @@ public class ApplicationContextConfig {
 		Properties properties = new Properties();
 		properties.put("hibernate.show_sql", true);
 		properties.put("hibernate.dialect", "org.hibernate.dialect.H2Dialect");
+
+		properties.setProperty("hibernate.format_sql", "true");
+		properties.setProperty("hibernate.hbm2ddl.auto", "update");
+
 		return properties;
 	}
 
