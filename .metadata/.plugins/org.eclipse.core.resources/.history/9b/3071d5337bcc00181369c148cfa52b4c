@@ -1,0 +1,40 @@
+package com.niit.OnlineShoppingBackend.daoimpl;
+
+import java.util.List;
+
+import com.niit.OnlineShoppingBackend.dao.CartItemDAO;
+import com.niit.OnlineShoppingBackend.model.CartItem;
+
+public class CartItemDAOImpl implements CartItemDAO {
+
+	@Override
+	public List<CartItem> allCartItems() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public CartItem getCartItemById(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean save(CartItem CartItem) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean update(CartItem CartItem) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean delete(CartItem CartItem) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

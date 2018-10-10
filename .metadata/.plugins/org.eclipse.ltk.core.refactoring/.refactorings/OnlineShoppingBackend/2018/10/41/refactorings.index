@@ -3,3 +3,4 @@
 1539065104274	Move 3 resources to 'OnlineShoppingBackend'
 1539068750980	Rename type 'Users'
 1539075195016	Rename type 'HibernateConfig'
+1539168560157	Rename type 'ProductDao'

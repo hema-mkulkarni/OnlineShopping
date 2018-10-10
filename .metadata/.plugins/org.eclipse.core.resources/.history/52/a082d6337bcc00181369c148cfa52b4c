@@ -1,0 +1,40 @@
+package com.niit.OnlineShoppingBackend.daoimpl;
+
+import java.util.List;
+
+import com.niit.OnlineShoppingBackend.dao.UserDAO;
+import com.niit.OnlineShoppingBackend.model.User;
+
+public class UserDAOImpl implements UserDAO {
+
+	@Override
+	public List<User> allUsers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User getUserById(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean save(User User) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean update(User User) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean delete(User User) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}
