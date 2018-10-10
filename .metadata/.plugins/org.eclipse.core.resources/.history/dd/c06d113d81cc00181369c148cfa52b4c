@@ -32,46 +32,16 @@ public class ProductDAOImpl implements ProductDAO {
 
 	@Override
 	public boolean save(Product product) {
-		try {
-			if (getProductById(product.getId()) != null) {
-				return false;
-			}
-			sessionFactory.getCurrentSession().save(product);
-			return true;
-		} catch (Exception e) {
-			e.printStackTrace();
-			return false;
-		}
+		return false;
 	}
 
 	@Override
 	public boolean update(Product product) {
-		try {
-			if (getProductById(product.getId()) != null) {
-				return false;
-			}
-			sessionFactory.getCurrentSession().update(product);
-			return true;
-		}
-
-		catch (Exception e) {
-			e.printStackTrace();
-			return false;
-		}
-
+		return false;
 	}
 
 	@Override
 	public boolean delete(Product product) {
-		try {
-			if (getProductById(product.getId()) != null) {
-				return false;
-			}
-			sessionFactory.getCurrentSession().delete(product);
-			return true;
-		} catch (Exception e) {
-			e.printStackTrace();
-			return false;
-		}
+		return false;
 	}
 }

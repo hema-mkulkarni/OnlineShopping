@@ -1858,3 +1858,103 @@ Caused by: java.io.EOFException: input contained no data
 2018-10-10 15:18:59,323 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
 2018-10-10 15:18:59,325 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-10-10 15:18:59,325 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 15:54:16,000 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 15:54:16,001 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 15:54:16,003 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 15:54:16,003 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 15:56:20,809 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 15:56:20,809 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 15:56:20,809 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 15:56:20,809 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 16:03:11,532 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:03:11,532 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 16:03:11,532 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:03:11,532 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 16:04:24,145 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:04:24,145 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 16:04:24,145 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:04:24,145 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 16:04:56,150 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:04:56,150 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 16:04:56,150 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:04:56,150 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 16:08:31,320 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:08:31,320 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 16:08:31,320 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:08:31,320 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 16:08:38,893 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:08:38,893 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 16:08:38,909 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:08:38,909 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 16:09:31,355 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:09:31,355 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 16:09:31,355 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:09:31,355 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 16:09:43,865 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:09:43,865 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 16:09:43,903 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:09:43,903 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 16:10:25,469 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:10:25,469 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 16:10:25,485 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:10:25,485 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 16:10:51,405 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:10:51,405 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 16:10:51,405 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:10:51,405 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 16:18:32,732 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:18:32,732 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 16:18:32,732 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:18:32,732 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 16:19:09,031 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:19:09,031 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 16:19:09,031 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:19:09,031 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 16:19:20,573 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:19:20,573 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 16:19:20,573 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:19:20,573 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 16:20:13,882 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:20:13,882 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 16:20:13,882 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:20:13,882 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 16:20:31,180 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:20:31,180 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 16:20:31,180 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:20:31,180 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 16:22:29,664 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:22:29,664 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 16:22:29,664 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:22:29,664 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 16:22:49,210 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:22:49,210 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 16:22:49,210 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:22:49,210 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 16:23:04,556 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:23:04,556 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 16:23:04,556 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:23:04,556 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 16:23:42,574 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:23:42,574 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 16:23:42,590 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:23:42,590 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 16:24:25,664 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:24:25,664 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 16:24:25,664 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:24:25,664 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 16:25:05,759 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:25:05,759 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 16:25:05,759 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:25:05,759 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 16:25:27,115 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:25:27,115 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 16:25:27,115 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:25:27,115 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 16:25:45,517 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:25:45,517 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 16:25:45,532 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:25:45,532 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
+2018-10-10 16:26:56,155 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:26:56,155 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\main\resources
+2018-10-10 16:26:56,155 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-10 16:26:56,155 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DT_Oct18\OnlineShoppingBackend\src\test\resources
