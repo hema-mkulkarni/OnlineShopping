@@ -1,0 +1,5 @@
+package com.niit.OnlineShoppingBackend.config;
+@Configuration
+public class HibernateConfig {
+
+}

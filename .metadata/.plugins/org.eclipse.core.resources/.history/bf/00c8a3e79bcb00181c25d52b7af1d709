@@ -1,0 +1,59 @@
+package com.niit.OnlineShoppingBackend.config;
+
+import java.util.Properties;
+
+import javax.sql.DataSource;
+
+import org.apache.commons.dbcp2.BasicDataSource;
+import org.hibernate.SessionFactory;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.orm.hibernate4.HibernateTransactionManager;
+import org.springframework.orm.hibernate4.LocalSessionFactoryBuilder;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+import com.niit.OnlineShoppingBackend.model.CartItem;
+import com.niit.OnlineShoppingBackend.model.Category;
+import com.niit.OnlineShoppingBackend.model.Product;
+import com.niit.OnlineShoppingBackend.model.Supplier;
+import com.niit.OnlineShoppingBackend.model.User;
+
+@Configuration
+@ComponentScan(basePackages = "com.niit")
+@EnableTransactionManagement
+public class HibernateConfig {
+	@Bean
+	public SessionFactory sessionFactory() {
+		LocalSessionFactoryBuilder lsf = new LocalSessionFactoryBuilder(getDataSource());
+		Properties hibernateProperties = new Properties();
+		hibernateProperties.setProperty("hibernate.dialect", "org.hibernate.dialect.H2Dialect");
+		hibernateProperties.setProperty("hibernate.hbm2ddl.auto", "update");
+		hibernateProperties.setProperty("hibernate.show_sql", "true");
+		hibernateProperties.setProperty("hibernate.format_sql", "true");
+		lsf.addProperties(hibernateProperties);
+		Class classes[] = new Class[] { Category.class, Product.class, CartItem.class, Supplier.class, User.class };
+		return lsf.addAnnotatedClasses(classes).buildSessionFactory();
+	}
+
+	@Bean
+	public DataSource getDataSource() {
+		BasicDataSource dataSource = new BasicDataSource();
+		dataSource.setDriverClassName("org.h2.Driver");
+		dataSource.setUrl("jdbc:h2:~/OnlineShopping"); // see the doc
+														// and
+														// change
+														// the url
+														// if it is
+														// different
+		dataSource.setUsername("sa"); // change the value if it is different
+		// dataSource.setPassword("admin123"); // change the password if it is
+		// different
+		return dataSource;
+	}
+
+	@Bean
+	public HibernateTransactionManager hibTransManagement() {
+		return new HibernateTransactionManager(sessionFactory());
+	}
+}

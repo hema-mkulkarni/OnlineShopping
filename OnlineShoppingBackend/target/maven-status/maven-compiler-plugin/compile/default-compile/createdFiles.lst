@@ -1,0 +1,8 @@
+com\niit\OnlineShoppingBackend\config\ApplicationContextConfig.class
+com\niit\OnlineShoppingBackend\App.class
+com\niit\OnlineShoppingBackend\model\Supplier.class
+com\niit\OnlineShoppingBackend\model\Category.class
+com\niit\OnlineShoppingBackend\model\CartItem.class
+com\niit\OnlineShoppingBackend\model\Product.class
+com\niit\OnlineShoppingBackend\model\User.class
+com\niit\OnlineShoppingBackend\dao\ProductDao.class

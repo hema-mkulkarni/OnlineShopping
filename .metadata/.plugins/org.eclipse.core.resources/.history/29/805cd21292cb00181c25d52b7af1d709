@@ -1,0 +1,5 @@
+package com.niit.OnlineShoppingBackend.model;
+
+public class User {
+
+}
