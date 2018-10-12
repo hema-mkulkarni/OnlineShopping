@@ -1,0 +1,5 @@
+package com.dteja.config;
+
+public class HibernateConfig {
+
+}

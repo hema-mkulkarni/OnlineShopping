@@ -1,0 +1,18 @@
+package com.niit.OnlineShoppingBackend;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.niit.OnlineShoppingBackend.config.ApplicationContextConfig;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        AnnotationConfigApplicationContext annotation=new AnnotationConfigApplicationContext(ApplicationContextConfig.class);
+    }
+}

@@ -1,0 +1,6 @@
+package com.dteja.model;
+@Entity
+@Table
+public class Blog {
+
+}

@@ -1,0 +1,44 @@
+package com.dteja.dao;
+
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.dteja.model.BlogComment;
+@Repository("blogCommentDAO")
+public class BlogCommentDAOImpl implements BlogCommentDAO {
+	@Autowired
+	SessionFactory sessionFactory;
+
+	@Override
+	public boolean updateComment(BlogComment blogComment) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean deleteComment(BlogComment blogComment) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public BlogComment getBlogComment(int blogCommentId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<BlogComment> listBlogComments(int blogId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean addComment(BlogComment blogComment) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+}

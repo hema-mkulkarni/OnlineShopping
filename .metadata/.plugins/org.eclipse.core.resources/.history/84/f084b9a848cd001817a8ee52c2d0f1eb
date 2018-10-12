@@ -1,0 +1,14 @@
+package com.dteja.CollabBackEnd;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class BlogCommentTestCase {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

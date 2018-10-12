@@ -5,12 +5,13 @@ import java.util.List;
 import org.hibernate.Query;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.niit.OnlineShoppingBackend.dao.ProductDAO;
 import com.niit.OnlineShoppingBackend.model.Product;
 
-@ComponentScan("ProductDAO")
+@Repository("productDAO")
 public class ProductDAOImpl implements ProductDAO {
 	@Autowired
 	SessionFactory sessionFactory;
@@ -19,18 +20,18 @@ public class ProductDAOImpl implements ProductDAO {
 		this.sessionFactory = sessionFactory;
 	}
 
-	@Override
+	@Transactional
 	public List<Product> allProducts() {
 		Query query = sessionFactory.getCurrentSession().createQuery("from Product");
 		return query.list();
 	}
 
-	@Override
+	@Transactional
 	public Product getProductById(String id) {
 		return (Product) sessionFactory.getCurrentSession().get(Product.class, id);
 	}
 
-	@Override
+	@Transactional
 	public boolean save(Product product) {
 		try {
 			if (getProductById(product.getId()) != null) {
@@ -44,7 +45,7 @@ public class ProductDAOImpl implements ProductDAO {
 		}
 	}
 
-	@Override
+	@Transactional
 	public boolean update(Product product) {
 		try {
 			if (getProductById(product.getId()) != null) {
@@ -61,7 +62,7 @@ public class ProductDAOImpl implements ProductDAO {
 
 	}
 
-	@Override
+	@Transactional
 	public boolean delete(Product product) {
 		try {
 			if (getProductById(product.getId()) != null) {

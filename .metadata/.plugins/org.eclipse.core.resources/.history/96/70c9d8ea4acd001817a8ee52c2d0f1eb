@@ -1,0 +1,10 @@
+package com.dteja.dao;
+
+import com.dteja.model.UserDetail;
+
+public interface UserDAO {
+	boolean registerUser(UserDetail user);
+
+	boolean updateUser(UserDetail user);
+
+}

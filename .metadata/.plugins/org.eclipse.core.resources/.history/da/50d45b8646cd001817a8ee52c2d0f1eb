@@ -1,0 +1,6 @@
+package com.dteja.dao;
+
+public class BlogCommentDAOImpl implements BlogCommentDAO{
+public boolean addComment(BlogComment blogComment);
+
+}
